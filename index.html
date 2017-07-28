@@ -5,6 +5,23 @@
     body {
         background-color: #EEEEEE
     }
+
+    .iframe-doc {
+        border: 0;
+        margin-top: 17px;
+        width: 750px;
+        height: 1000px;
+        -moz-transform: scale(0.75, 0.75);
+        -webkit-transform: scale(0.75, 0.75);
+        -o-transform: scale(0.75, 0.75);
+        -ms-transform: scale(0.75, 0.75);
+        transform: scale(0.75, 0.75);
+        -moz-transform-origin: top left;
+        -webkit-transform-origin: top left;
+        -o-transform-origin: top left;
+        -ms-transform-origin: top left;
+        transform-origin: top left;
+    }
 </style>
 
 <head>
@@ -115,7 +132,34 @@
         </div>
 
         <div class="row justify-content-center" style="padding-top: 30px; padding-bottom: 30px">
-            <iframe src="https://docs.google.com/presentation/d/14TY_Wz85dleBh5Yfx4hqc_kJ7CtAg8M3zqQ4kQ2KBNg/embed?start=true&loop=true&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+            <iframe src="https://docs.google.com/presentation/d/14TY_Wz85dleBh5Yfx4hqc_kJ7CtAg8M3zqQ4kQ2KBNg/embed?start=true&loop=true&delayms=3000"
+                frameBorder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="col-md-6">
+
+                <div class="card card-primary text-center z-depth-2">
+                    <div class="card-block">
+                        <p class="white-text"><strong>Announcements</strong></p>
+                    </div>
+                </div>
+
+                <iframe class="iframe-doc" src="https://docs.google.com/document/d/1UkN2cWGtN3BmnzTZBe3ghbPhD3PT4TFyQhMa2zZW7HI/pub?embedded=true"></iframe>
+            </div>
+
+            <div class="col-md-6">
+
+                <div class="card card-primary text-center z-depth-2">
+                    <div class="card-block">
+                        <p class="white-text"><strong>Pathways TKD Class Schedule</strong></p>
+                    </div>
+                </div>
+
+                <iframe class="iframe-doc" src="https://docs.google.com/document/d/1XNlUzmlZ1AfXRtKT-_ysrhCUnSOVMiveP9X4_70oSw8/pub?embedded=true"></iframe>
+            </div>
         </div>
     </div>
 
